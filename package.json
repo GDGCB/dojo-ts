@@ -1,0 +1,22 @@
+{
+  "name": "dojo",
+  "version": "1.0.0",
+  "description": "coding dojo skeleton",
+  "main": "index.js",
+  "author": "@twista",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "test": "jest --forceExit --coverage --verbose --detectOpenHandles",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^25.5.4",
+    "ts-jest": "^25.5.1",
+    "typescript": "^3.9.3"
+  }
+}
